@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "[CUSTOM_SERVER_NAME]": {
+            "command": "[NODE_PATH]",
+            "args": ["[MCP_SERVER_PATH]}"],
+            "env": {
+                "MAGENTO_API_TOKEN": "[API_TOKEN]",
+                "MAGENTO_BASE_URL": "https://magento2url.local/rest/V1",
+                "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+            }
+        }
+    }
+}
